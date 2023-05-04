@@ -30,3 +30,8 @@ useState creates the state resources and sets the value of the state to zero.
 
 this then is used to update the state of the application.
 
+useState returns an array with two values.
+
+the current value of that state and a function to update that state. We're using a feature of JavaScript called destructuring to get both of those things out of the array.
+
+
