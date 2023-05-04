@@ -54,3 +54,21 @@ sometimes it is hard to run/remember all this commands ie `prettier --write <pat
 this you will just be running `npm run format` and prettier will do its thing. don't forget to install prettier for development only: `npm install -D prettier` or `npm install --save-dev prettier`
 
 With npm scripts, you can pass additional parameters to the command if you want. Just add a -- and then put whatever else you want to tack on after that. For example, if I wanted to get the debug output from ESLint, I could run npm run lint -- --debug which would translate to eslint **/*.js --debug.
+
+## vite
+
+Vite is a build tool for modern web applications that offers fast development server and build times. It was created to solve the slow development server and build times of the traditional bundlers like Webpack, Rollup, and Parcel.
+
+Vite supports various web development frameworks and libraries like React, Vue.js, Svelte, and vanilla JavaScript. It also supports TypeScript, SCSS, and Less out of the box.
+
+`npm install -D vite@3.1.4 @vitejs/plugin-react@2.1.0`  
+
+this command  will istall two things:
+
+1. vite is the main Vite package that you'll use to run the development server and build your application.
+2. @vitejs/plugin-react is a Vite plugin that provides integration with React. It enables features like JSX, hot module replacement, and code splitting for React applications
+
+The -D flag tells npm to install these packages as dev dependencies, which means they will be used for development and not for production.
+
+`<script type="module" src="./App.js"></script>`
+We need to add module to the script tag so that the browser knows it's working with modern browser technology that allows you in development mode to use modules directly. Instead of having to reload the whole bundle every time, your browser can just reload the JS that has changed. It allows the browser to crawl the dependency graph itself which means Vite can run lightning fast in dev mode. It will still package it up for production so we can support a range of browsers.
