@@ -14,6 +14,8 @@ prior to hooks, stateful logic and lifecycle methods were only available to clas
 6. useMemo
 7. useRef
 
+one can always make his/her own custom hooks
+
 ## USE STATE
 
 this is used to create and update state values
@@ -33,5 +35,4 @@ this then is used to update the state of the application.
 useState returns an array with two values.
 
 the current value of that state and a function to update that state. We're using a feature of JavaScript called destructuring to get both of those things out of the array.
-
 
