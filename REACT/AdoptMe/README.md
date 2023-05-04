@@ -72,3 +72,16 @@ The -D flag tells npm to install these packages as dev dependencies, which means
 
 `<script type="module" src="./App.js"></script>`
 We need to add module to the script tag so that the browser knows it's working with modern browser technology that allows you in development mode to use modules directly. Instead of having to reload the whole bundle every time, your browser can just reload the JS that has changed. It allows the browser to crawl the dependency graph itself which means Vite can run lightning fast in dev mode. It will still package it up for production so we can support a range of browsers.
+
+## install react
+
+`npm install react react-dom`
+
+## scripts
+
+dev will start the devlopment server, typically on http://localhost:5173/. build will prepare static files to be deployed (to somewhere like GitHub Pages, Vercel, Netlify, AWS S3, etc.) preview lets you preview your production build locally.
+
+## JSX
+
+it translates html tags you write in your javascript to React.createElement calls
+
