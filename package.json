@@ -1,6 +1,0 @@
-{
-  "devDependencies": {
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "sass": "^1.62.1"
-  }
-}
