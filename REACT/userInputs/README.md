@@ -19,3 +19,6 @@ one thing we can do is listen to submit events on forms:
 </form>
 ...
 ```
+
+This course isn't going into all the ways of handling user interactions in JavaScript. You can register handlers for things mouse leave, mouse enter, key up, key down, and can even handle stuff like copy and paste events, focus, blur
+
