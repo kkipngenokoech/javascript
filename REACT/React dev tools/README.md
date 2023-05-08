@@ -14,5 +14,4 @@ React has a new strict mode. If you wrap your app in `<React.StrictMode></React.
 
 ## DEV TOOLS
 
-They let you do several things like explore your React app like a DOM tree, modify state and props on the fly to test things out, tease out performance problems, and programtically manipulate components
-
+They let you do several things like explore your React app like a DOM tree, modify state and props on the fly to test things out, tease out performance problems, and programtically manipulate com
