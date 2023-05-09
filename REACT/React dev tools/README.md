@@ -2,6 +2,8 @@
 
 React has some really great tools to enhance your developer experience.
 
+React Developer Tools is an extension to the browser developer tools which allows you to inspect React components that build the page. It helps you to check and edit the React component tree as well as props, state, and hooks for each component.
+
 ## NODE_ENV = development
 
 React already has a lot of developer conveniences built into it out of the box. What's better is that they automatically strip it out when you compile your code for production.
