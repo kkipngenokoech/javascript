@@ -56,3 +56,5 @@ this will create a couple of react application files, two of the most important 
 
 state in react is what we use to handle values that can change over time, states in react are immmutable and so we cannot/never change state directly, that's why we use functions: `const [update, setUpdate] = useState()`
 
+states are pretty useful elements in react applications.
+
