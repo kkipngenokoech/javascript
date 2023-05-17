@@ -27,3 +27,8 @@ rem is simply em except the base size is always the root font size. This is almo
 ```
 
 to apply the borders on hover, you might need to set the border styles of your divs indidual tabs
+
+
+## margin 0 auto
+
+this property aligns an item to the center having equal distances from the left and from the right.

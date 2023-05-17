@@ -1,10 +1,20 @@
+body{
+  background-color: blue;
+}
+a {
+  text-decoration: none;
+}
+
+
 
 .menu {
   background: #e0e0e0;
   border-top: 1px solid #CFCFCF;
+  width: 40rem;
+  margin: 0 auto;
 }
 
-.menu__item {
+.menu-item {
   font-family: Roboto;
   font-size: 0.9rem;
   font-weight: 800;
@@ -15,7 +25,7 @@
 }
 
 
-.menu__item:hover{
+.menu-item:hover{
   background: white;
   border-bottom: none;
   border-right: 1px solid #CFCFCF;
@@ -23,8 +33,33 @@
   margin: 0 -1px;
 }
 
-.menu__item--current .menu__item__link {
+.menu-item--current .menu-item__link {
   color: #333333;
   border-bottom: 2px solid #333;
   padding-bottom: 0.3rem;
+}
+
+.sub-menu {
+  width: 40rem;
+  margin: auto;
+  height: 20rem;
+  background: red;
+}
+
+.sub-menu-main-div div{
+  display: inline-block;
+}
+
+.sub-menu-categories {
+  vertical-align: top;
+  background-color: aqua;
+  display: inline-block;
+}
+
+.sub-menu-visual{
+  background-color: blueviolet;
+}
+
+.sub-menu-visual-img{
+  
 }
